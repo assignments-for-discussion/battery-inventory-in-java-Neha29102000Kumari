@@ -22,6 +22,17 @@ public class Main {
   }
 
   public static void main(String[] args) {
-    testBucketingByNumberOfCycles();
+     testBucketingByNumberOfCycles();
+    if(counts<=410)
+    {
+      lowCount++;
   }
+    else if(count>=410 && count<=909)
+    {
+      mediumCount++;
 }
+    else
+    {
+      highCount++;
+    }
+  }
